@@ -1,0 +1,14 @@
+# macOS
+.DS_Store
+
+# Xcode — user-specific / local
+xcuserdata/
+*.xcuserstate
+*.moved-aside
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Local build output (deploy scripts write here)
+build/
