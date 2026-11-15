@@ -4,6 +4,8 @@ An independent app. Not affiliated with, or endorsed by, E.ON Hungária.
 
 iOS 26 app for quarter-hourly electricity consumption and inverter feed-in from the E.ON Hungária remote-reading portal. Home Screen and Lock Screen widgets, a Control Center control, and Siri/Shortcuts actions.
 
+Available on the App Store: https://apps.apple.com/us/app/eye-on/id6823543677
+
 ```
 open EonUsage.xcodeproj        # Xcode 26.6, Swift 6, iOS 26 deployment target
 ./deploy-phone.sh              # or build straight to a paired iPhone (--help for options)
