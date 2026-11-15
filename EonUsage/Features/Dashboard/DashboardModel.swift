@@ -84,7 +84,8 @@ enum TimeSpan: String, CaseIterable, Identifiable, Sendable {
 @MainActor
 @Observable
 final class DashboardModel {
-    var span: TimeSpan = .day {
+    // `-span week` / `-span month` launch argument, for App Store screenshots.
+    var span: TimeSpan = TimeSpan(rawValue: UserDefaults.standard.string(forKey: "span") ?? "") ?? .day {
         didSet { guard span != oldValue else { return }; selection = nil }
     }
 
